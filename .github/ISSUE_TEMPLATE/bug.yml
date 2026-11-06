@@ -1,0 +1,54 @@
+name: Bug
+description: Segnala un problema nella Alpha
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Le segnalazioni sono pubbliche. Non inserire nomi di amici, indirizzi, chat, token o dati personali. Ritaglia eventuali screenshot."
+  - type: input
+    id: version
+    attributes:
+      label: Versione
+      placeholder: 0.1.0-alpha.1
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser, versione e sistema operativo
+      placeholder: Chrome 142, macOS / Windows
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passaggi per riprodurre
+      description: Cosa hai fatto, cosa ti aspettavi, cosa è successo.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Impatto
+      options:
+        - Blocco — non carica, crash o non posso giocare
+        - Grave — funzione principale inutilizzabile
+        - Minore — posso continuare
+    validations:
+      required: true
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Riproducibilità
+      options:
+        - Sempre
+        - A volte
+        - Una sola volta
+        - Non so
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot facoltativo
+      description: Trascina un’immagine dopo aver rimosso informazioni private.

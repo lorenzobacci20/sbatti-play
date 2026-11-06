@@ -1,0 +1,21 @@
+name: Suggerimento
+description: Proponi un miglioramento
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: "Proposte pubbliche: non raccontare storie private di amici e non indicare abitazioni o dati personali."
+  - type: input
+    id: version
+    attributes:
+      label: Versione provata
+      placeholder: 0.1.0-alpha.1
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: La tua idea
+      description: Quale problema risolve? Come migliora l’esperienza?
+    validations:
+      required: true

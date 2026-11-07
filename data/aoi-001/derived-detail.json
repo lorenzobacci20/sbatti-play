@@ -1,0 +1,1718 @@
+{
+ "buildings": [
+  {
+   "archetype": "commercial",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 6.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/317900219",
+   "max_y_generated": 36.08,
+   "plaster": "rose",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "green",
+   "top_y": 36.08
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 5,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 15.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/390133992",
+   "max_y_generated": 50.36,
+   "plaster": "rose",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "green",
+   "top_y": 50.36
+  },
+  {
+   "archetype": "commercial",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 6.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/506083663",
+   "max_y_generated": 38.04,
+   "plaster": "ochre",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "green",
+   "top_y": 38.04
+  },
+  {
+   "archetype": "commercial",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 6.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/506083664",
+   "max_y_generated": 36.63,
+   "plaster": "terracotta",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "green",
+   "top_y": 36.63
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 6.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/568923112",
+   "max_y_generated": 47.47,
+   "plaster": "ochre",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 47.47
+  },
+  {
+   "archetype": "house",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 1,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 3.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/568923121",
+   "max_y_generated": 41.69,
+   "plaster": "stone",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 41.69
+  },
+  {
+   "archetype": "condominio",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 7,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 21.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757728072",
+   "max_y_generated": 63.54,
+   "plaster": "ochre",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "plain",
+   "top_y": 63.54
+  },
+  {
+   "archetype": "condominio",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 7,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 21.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753598",
+   "max_y_generated": 64.76,
+   "plaster": "rose",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "plain",
+   "top_y": 64.76
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 5,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 15.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753616",
+   "max_y_generated": 49.2,
+   "plaster": "stone",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 49.2
+  },
+  {
+   "archetype": "house",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 1,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 6.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753617",
+   "max_y_generated": 39.98,
+   "plaster": "cream",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 39.98
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 9.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753618",
+   "max_y_generated": 40.98,
+   "plaster": "rose",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 40.98
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 9.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753621",
+   "max_y_generated": 38.95,
+   "plaster": "cream",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 38.95
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 1,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 6.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753627",
+   "max_y_generated": 39.55,
+   "plaster": "rose",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "green",
+   "top_y": 39.55
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 9.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753628",
+   "max_y_generated": 44.18,
+   "plaster": "cream",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "brown",
+   "top_y": 44.18
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 9.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753630",
+   "max_y_generated": 43.35,
+   "plaster": "stone",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "green",
+   "top_y": 43.35
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 2,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 9.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753631",
+   "max_y_generated": 45.74,
+   "plaster": "cream",
+   "roof": "HIP_ESTIMATED",
+   "shutters": "green",
+   "top_y": 45.74
+  },
+  {
+   "archetype": "palazzina",
+   "door": "FACADE_NEAREST_ROAD_ESTIMATED",
+   "facade_details": "ESTIMATED_DECORATIVE",
+   "floors": 3,
+   "floors_source": "OSM_LEVELS",
+   "height_m": 9.0,
+   "height_source": "OSM_HEIGHT",
+   "id": "osm:way/757753662",
+   "max_y_generated": 36.89,
+   "plaster": "rose",
+   "roof": "FLAT_PARAPET_ESTIMATED",
+   "shutters": "green",
+   "top_y": 36.89
+  }
+ ],
+ "chunk_size": 256.0,
+ "corridor": {
+  "description": "points within half_width_m of the test-route polyline from the spawn to the roundabout (Unity local frame, metres)",
+  "half_width_m": 70.0,
+  "polyline_local": [
+   [
+    37.0,
+    20.0
+   ],
+   [
+    55.0,
+    60.0
+   ],
+   [
+    88.0,
+    105.0
+   ],
+   [
+    126.0,
+    145.0
+   ],
+   [
+    179.0,
+    190.0
+   ],
+   [
+    232.0,
+    238.0
+   ],
+   [
+    270.0,
+    266.0
+   ],
+   [
+    292.0,
+    272.0
+   ]
+  ]
+ },
+ "features": [
+  {
+   "id": "osm:node/394593244",
+   "kind": "zebra_crossing",
+   "position": [
+    250.49,
+    253.75
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/1759530657",
+   "kind": "zebra_crossing",
+   "position": [
+    127.4,
+    157.32
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/4913159862",
+   "kind": "zebra_crossing",
+   "position": [
+    290.1,
+    235.47
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/4913159864",
+   "kind": "zebra_crossing",
+   "position": [
+    71.99,
+    84.36
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/6506779272",
+   "kind": "zebra_crossing",
+   "position": [
+    141.83,
+    157.71
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/6509432852",
+   "kind": "zebra_crossing",
+   "position": [
+    0.26,
+    49.78
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/9754311563",
+   "kind": "zebra_crossing",
+   "position": [
+    291.16,
+    217.97
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:way/1198900014",
+   "kind": "roundabout_island",
+   "position": [
+    286.91,
+    272.53
+   ],
+   "source": "GEOMETRY_FROM_OSM_RING_DECORATION_ESTIMATED"
+  },
+  {
+   "id": "osm:way/568923106",
+   "kind": "parking_area",
+   "position": [
+    81.2,
+    134.6
+   ],
+   "source": "VERIFIED_AREA_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:way/568923108",
+   "kind": "parking_area",
+   "position": [
+    69.97,
+    123.63
+   ],
+   "source": "VERIFIED_AREA_ESTIMATED_LAYOUT"
+  },
+  {
+   "id": "osm:node/6289596503",
+   "kind": "bus_stop",
+   "position": [
+    14.22,
+    47.64
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_DESIGN"
+  },
+  {
+   "id": "osm:node/6506779270",
+   "kind": "bus_stop",
+   "position": [
+    115.37,
+    135.17
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_DESIGN"
+  },
+  {
+   "id": "osm:node/6506779271",
+   "kind": "bus_stop",
+   "position": [
+    148.71,
+    163.65
+   ],
+   "source": "VERIFIED_POSITION_ESTIMATED_DESIGN"
+  },
+  {
+   "id": "osm:way/1026078924:-1:15",
+   "kind": "street_lamp",
+   "position": [
+    33.3,
+    -38.8
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/164302905:-1:15",
+   "kind": "street_lamp",
+   "position": [
+    127.49,
+    165.01
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/164302905:-1:45",
+   "kind": "street_lamp",
+   "position": [
+    111.22,
+    190.22
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428177:1:14",
+   "kind": "street_lamp",
+   "position": [
+    294.83,
+    236.01
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428177:1:44",
+   "kind": "street_lamp",
+   "position": [
+    296.64,
+    206.05
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428177:-1:9",
+   "kind": "street_lamp",
+   "position": [
+    285.02,
+    240.31
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428177:-1:39",
+   "kind": "street_lamp",
+   "position": [
+    286.86,
+    210.4
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428178:-1:9",
+   "kind": "street_lamp",
+   "position": [
+    251.95,
+    260.91
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428178:-1:39",
+   "kind": "street_lamp",
+   "position": [
+    229.09,
+    241.02
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428178:-1:69",
+   "kind": "street_lamp",
+   "position": [
+    206.71,
+    221.05
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428178:-1:99",
+   "kind": "street_lamp",
+   "position": [
+    184.32,
+    201.08
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428178:-1:129",
+   "kind": "street_lamp",
+   "position": [
+    161.87,
+    181.29
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/291428181:-1:11",
+   "kind": "street_lamp",
+   "position": [
+    293.88,
+    259.55
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/301052668:-1:13",
+   "kind": "street_lamp",
+   "position": [
+    287.91,
+    288.09
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980207:-1:76",
+   "kind": "street_lamp",
+   "position": [
+    57.8,
+    167.4
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980207:-1:106",
+   "kind": "street_lamp",
+   "position": [
+    75.04,
+    147.61
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980327:-1:113",
+   "kind": "street_lamp",
+   "position": [
+    176.95,
+    103.45
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980327:-1:143",
+   "kind": "street_lamp",
+   "position": [
+    146.95,
+    103.6
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980327:-1:173",
+   "kind": "street_lamp",
+   "position": [
+    116.95,
+    103.75
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980328:-1:65",
+   "kind": "street_lamp",
+   "position": [
+    124.97,
+    48.77
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980328:-1:95",
+   "kind": "street_lamp",
+   "position": [
+    94.97,
+    49.04
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/329980328:-1:125",
+   "kind": "street_lamp",
+   "position": [
+    67.84,
+    55.74
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/37212375:-1:15",
+   "kind": "street_lamp",
+   "position": [
+    168.79,
+    200.61
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/37212375:-1:45",
+   "kind": "street_lamp",
+   "position": [
+    151.44,
+    225.08
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/390134015:-1:23",
+   "kind": "street_lamp",
+   "position": [
+    40.38,
+    -15.39
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/404366917:-1:15",
+   "kind": "street_lamp",
+   "position": [
+    57.36,
+    -20.37
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/404366917:-1:45",
+   "kind": "street_lamp",
+   "position": [
+    83.73,
+    -34.68
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/542076046:-1:11",
+   "kind": "street_lamp",
+   "position": [
+    49.18,
+    -34.58
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/641696277:-1:12",
+   "kind": "street_lamp",
+   "position": [
+    120.16,
+    145.98
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/641696277:-1:42",
+   "kind": "street_lamp",
+   "position": [
+    97.94,
+    125.08
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/641696277:-1:72",
+   "kind": "street_lamp",
+   "position": [
+    79.15,
+    101.34
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/641696277:-1:102",
+   "kind": "street_lamp",
+   "position": [
+    61.1,
+    77.06
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/641696277:-1:132",
+   "kind": "street_lamp",
+   "position": [
+    43.88,
+    52.58
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/671594510:-1:341",
+   "kind": "street_lamp",
+   "position": [
+    -18.85,
+    49.52
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/671594510:-1:371",
+   "kind": "street_lamp",
+   "position": [
+    10.9,
+    43.34
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/671650607:-1:20",
+   "kind": "street_lamp",
+   "position": [
+    33.8,
+    28.67
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/671650607:-1:50",
+   "kind": "street_lamp",
+   "position": [
+    28.39,
+    -0.67
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/671650607:-1:80",
+   "kind": "street_lamp",
+   "position": [
+    21.87,
+    -29.95
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/693066099:1:16",
+   "kind": "street_lamp",
+   "position": [
+    327.67,
+    314.43
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/693066099:1:46",
+   "kind": "street_lamp",
+   "position": [
+    306.18,
+    294.46
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/693066099:-1:9",
+   "kind": "street_lamp",
+   "position": [
+    326.1,
+    325.82
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/693066099:-1:39",
+   "kind": "street_lamp",
+   "position": [
+    303.78,
+    305.67
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/844513112:-1:59",
+   "kind": "street_lamp",
+   "position": [
+    271.32,
+    329.16
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:way/844513112:-1:89",
+   "kind": "street_lamp",
+   "position": [
+    280.43,
+    301.01
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "entry:osm:way/291428181:2948987170",
+   "kind": "road_sign",
+   "position": [
+    293.64,
+    263.56
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "bus:osm:node/6506779270",
+   "kind": "road_sign",
+   "position": [
+    117.86,
+    132.44
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/291428178:15:1",
+   "kind": "road_sign",
+   "position": [
+    250.7,
+    258.35
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/291428178:15:-1",
+   "kind": "road_sign",
+   "position": [
+    250.58,
+    249.14
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/164302905:8:-1",
+   "kind": "road_sign",
+   "position": [
+    123.25,
+    158.21
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/291428177:14:1",
+   "kind": "road_sign",
+   "position": [
+    286.41,
+    238.23
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/291428177:14:-1",
+   "kind": "road_sign",
+   "position": [
+    293.98,
+    232.7
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/641696277:90:1",
+   "kind": "road_sign",
+   "position": [
+    70.9,
+    89.0
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/641696277:90:-1",
+   "kind": "road_sign",
+   "position": [
+    73.14,
+    79.9
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/671594510:360:1",
+   "kind": "road_sign",
+   "position": [
+    -3.53,
+    46.89
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/671594510:360:-1",
+   "kind": "road_sign",
+   "position": [
+    3.76,
+    52.78
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/291428177:32:1",
+   "kind": "road_sign",
+   "position": [
+    287.29,
+    220.74
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "crossing:osm:way/291428177:32:-1",
+   "kind": "road_sign",
+   "position": [
+    294.84,
+    215.19
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "bus:osm:node/6289596503",
+   "kind": "bench",
+   "position": [
+    15.48,
+    42.61
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "bus:osm:node/6506779270",
+   "kind": "bench",
+   "position": [
+    117.11,
+    130.29
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "bus:osm:node/6506779271",
+   "kind": "bench",
+   "position": [
+    144.07,
+    165.96
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "osm:node/5472633728",
+   "kind": "tree_cypress",
+   "position": [
+    51.09,
+    140.95
+   ],
+   "source": "VERIFIED"
+  },
+  {
+   "id": "osm:node/5472633729",
+   "kind": "tree_cypress",
+   "position": [
+    46.12,
+    135.0
+   ],
+   "source": "VERIFIED"
+  },
+  {
+   "id": "osm:way/568923114:0",
+   "kind": "tree_broadleaf",
+   "position": [
+    42.06,
+    118.82
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923114:7",
+   "kind": "tree_pine",
+   "position": [
+    36.49,
+    123.06
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923114:14",
+   "kind": "tree_broadleaf",
+   "position": [
+    29.5,
+    123.37
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923114:28",
+   "kind": "tree_pine",
+   "position": [
+    17.55,
+    118.57
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923114:35",
+   "kind": "tree_broadleaf",
+   "position": [
+    12.5,
+    113.72
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923116:14",
+   "kind": "tree_broadleaf",
+   "position": [
+    72.47,
+    145.33
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923116:21",
+   "kind": "tree_cypress",
+   "position": [
+    75.64,
+    139.09
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923116:28",
+   "kind": "tree_cypress",
+   "position": [
+    78.81,
+    132.85
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "osm:way/568923116:35",
+   "kind": "tree_cypress",
+   "position": [
+    81.97,
+    126.61
+   ],
+   "source": "VERIFIED_ROW_ESTIMATED_SPACING"
+  },
+  {
+   "id": "fill:-2:1",
+   "kind": "tree_broadleaf",
+   "position": [
+    -21.87,
+    26.15
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:-2:2",
+   "kind": "tree_broadleaf",
+   "position": [
+    -21.85,
+    40.44
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:-1:3",
+   "kind": "tree_cypress",
+   "position": [
+    -4.72,
+    60.04
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:0:-1",
+   "kind": "tree_pine",
+   "position": [
+    9.07,
+    -3.67
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:0:2",
+   "kind": "tree_cypress",
+   "position": [
+    11.71,
+    35.49
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:0:6",
+   "kind": "tree_pine",
+   "position": [
+    4.15,
+    98.84
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:1:-2",
+   "kind": "tree_broadleaf",
+   "position": [
+    19.23,
+    -27.54
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:1:-1",
+   "kind": "tree_broadleaf",
+   "position": [
+    21.56,
+    -4.18
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:1:1",
+   "kind": "tree_cypress",
+   "position": [
+    19.36,
+    26.63
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:1:6",
+   "kind": "tree_broadleaf",
+   "position": [
+    22.2,
+    100.62
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:1:7",
+   "kind": "tree_cypress",
+   "position": [
+    23.6,
+    115.61
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:2:4",
+   "kind": "tree_pine",
+   "position": [
+    37.06,
+    69.46
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:2:6",
+   "kind": "tree_pine",
+   "position": [
+    41.78,
+    105.63
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:3:4",
+   "kind": "tree_broadleaf",
+   "position": [
+    50.64,
+    73.07
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:3:5",
+   "kind": "tree_cypress",
+   "position": [
+    54.89,
+    83.68
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:3:7",
+   "kind": "tree_pine",
+   "position": [
+    60.48,
+    114.5
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:4:6",
+   "kind": "tree_cypress",
+   "position": [
+    69.57,
+    104.06
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:4:10",
+   "kind": "tree_broadleaf",
+   "position": [
+    71.21,
+    173.25
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:5:-2",
+   "kind": "tree_cypress",
+   "position": [
+    86.49,
+    -21.64
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:5:9",
+   "kind": "tree_broadleaf",
+   "position": [
+    90.76,
+    147.22
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:6:0",
+   "kind": "tree_broadleaf",
+   "position": [
+    108.2,
+    12.69
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:6:8",
+   "kind": "tree_broadleaf",
+   "position": [
+    102.89,
+    133.57
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:6:9",
+   "kind": "tree_broadleaf",
+   "position": [
+    109.37,
+    151.22
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:6:12",
+   "kind": "tree_pine",
+   "position": [
+    103.85,
+    205.6
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:7:9",
+   "kind": "tree_broadleaf",
+   "position": [
+    120.04,
+    156.11
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:7:13",
+   "kind": "tree_broadleaf",
+   "position": [
+    117.01,
+    210.57
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:8",
+   "kind": "tree_broadleaf",
+   "position": [
+    139.56,
+    140.19
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:10",
+   "kind": "tree_pine",
+   "position": [
+    136.71,
+    168.99
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:11",
+   "kind": "tree_broadleaf",
+   "position": [
+    137.4,
+    179.18
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:12",
+   "kind": "tree_pine",
+   "position": [
+    134.61,
+    198.02
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:13",
+   "kind": "tree_cypress",
+   "position": [
+    135.49,
+    220.17
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:14",
+   "kind": "tree_broadleaf",
+   "position": [
+    135.35,
+    227.41
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:8:15",
+   "kind": "tree_cypress",
+   "position": [
+    140.22,
+    246.3
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:9:4",
+   "kind": "tree_broadleaf",
+   "position": [
+    146.71,
+    74.11
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:9:5",
+   "kind": "tree_broadleaf",
+   "position": [
+    150.48,
+    86.7
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:9:6",
+   "kind": "tree_broadleaf",
+   "position": [
+    153.2,
+    108.13
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:9:14",
+   "kind": "tree_broadleaf",
+   "position": [
+    151.72,
+    234.11
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:10:5",
+   "kind": "tree_cypress",
+   "position": [
+    171.1,
+    91.33
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:10:9",
+   "kind": "tree_broadleaf",
+   "position": [
+    167.71,
+    156.74
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:10:10",
+   "kind": "tree_broadleaf",
+   "position": [
+    164.32,
+    165.73
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:11:7",
+   "kind": "tree_pine",
+   "position": [
+    185.92,
+    118.75
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:12:7",
+   "kind": "tree_cypress",
+   "position": [
+    198.31,
+    125.44
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:12:17",
+   "kind": "tree_cypress",
+   "position": [
+    203.09,
+    276.08
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:13:12",
+   "kind": "tree_pine",
+   "position": [
+    217.69,
+    201.92
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:13:17",
+   "kind": "tree_cypress",
+   "position": [
+    213.3,
+    285.3
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:15:14",
+   "kind": "tree_broadleaf",
+   "position": [
+    251.22,
+    229.53
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:16:12",
+   "kind": "tree_broadleaf",
+   "position": [
+    264.65,
+    202.58
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:16:14",
+   "kind": "tree_cypress",
+   "position": [
+    262.8,
+    234.84
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:16:17",
+   "kind": "tree_broadleaf",
+   "position": [
+    258.55,
+    283.6
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:17:12",
+   "kind": "tree_broadleaf",
+   "position": [
+    284.85,
+    204.11
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:17:13",
+   "kind": "tree_pine",
+   "position": [
+    279.24,
+    218.73
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:17:14",
+   "kind": "tree_broadleaf",
+   "position": [
+    279.72,
+    230.13
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:17:15",
+   "kind": "tree_broadleaf",
+   "position": [
+    281.31,
+    243.05
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:17:19",
+   "kind": "tree_cypress",
+   "position": [
+    285.5,
+    314.22
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:18:16",
+   "kind": "tree_cypress",
+   "position": [
+    301.3,
+    263.85
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:19:15",
+   "kind": "tree_broadleaf",
+   "position": [
+    313.3,
+    246.74
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:20:16",
+   "kind": "tree_broadleaf",
+   "position": [
+    323.25,
+    263.92
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:20:18",
+   "kind": "tree_broadleaf",
+   "position": [
+    325.04,
+    295.83
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:20:19",
+   "kind": "tree_broadleaf",
+   "position": [
+    329.5,
+    313.15
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:21:14",
+   "kind": "tree_pine",
+   "position": [
+    346.42,
+    235.38
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "fill:21:16",
+   "kind": "tree_cypress",
+   "position": [
+    348.21,
+    261.21
+   ],
+   "source": "ESTIMATED"
+  },
+  {
+   "id": "287:273",
+   "kind": "island_planting",
+   "position": [
+    286.91,
+    272.53
+   ],
+   "source": "ESTIMATED"
+  }
+ ],
+ "materials": [
+  "Atlas",
+  "Sidewalk",
+  "RoofTiles",
+  "RoofFlat",
+  "Grass",
+  "Asphalt"
+ ],
+ "report": {
+  "archetypes": {
+   "commercial": 3,
+   "condominio": 2,
+   "house": 2,
+   "palazzina": 10
+  },
+  "buildings_detailed": 17,
+  "checks": {
+   "building_top_mismatch_gt_2cm": 0,
+   "props_on_carriageway": 0,
+   "props_total": 133,
+   "sidewalk_min_clear_width_m": 1.25
+  },
+  "chunks": 4,
+  "collision_triangles": 10740,
+  "config_version": 1,
+  "counts": {
+   "bench": {
+    "ESTIMATED": 3.0
+   },
+   "building_commercial": {
+    "OSM_HEIGHT": 3.0
+   },
+   "building_condominio": {
+    "OSM_HEIGHT": 2.0
+   },
+   "building_house": {
+    "OSM_HEIGHT": 2.0
+   },
+   "building_palazzina": {
+    "OSM_HEIGHT": 10.0
+   },
+   "bus_stops": {
+    "VERIFIED": 3.0
+   },
+   "frontage_hedge_m": {
+    "ESTIMATED": 841.5
+   },
+   "frontage_wall_m": {
+    "ESTIMATED": 408.0
+   },
+   "giveway_markings": {
+    "ESTIMATED": 4.0
+   },
+   "island_planting": {
+    "ESTIMATED": 1.0
+   },
+   "marking_m": {
+    "ESTIMATED": 623.5
+   },
+   "parking_stalls_cars": {
+    "ESTIMATED": 0.0
+   },
+   "parking_surface_m2": {
+    "VERIFIED_AREA": 159.8
+   },
+   "road_sign": {
+    "ESTIMATED": 13.0
+   },
+   "road_sign_dropped": {
+    "NO_ROOM": 7.0
+   },
+   "sidewalk_m": {
+    "ESTIMATED": 1982.9
+   },
+   "street_lamp": {
+    "ESTIMATED": 44.0
+   },
+   "tree_broadleaf": {
+    "ESTIMATED": 32.0,
+    "VERIFIED_ROW_ESTIMATED_SPACING": 4.0
+   },
+   "tree_cypress": {
+    "ESTIMATED": 17.0,
+    "VERIFIED": 2.0,
+    "VERIFIED_ROW_ESTIMATED_SPACING": 3.0
+   },
+   "tree_pine": {
+    "ESTIMATED": 12.0,
+    "VERIFIED_ROW_ESTIMATED_SPACING": 2.0
+   },
+   "zebra_crossings": {
+    "VERIFIED": 7.0
+   }
+  },
+  "seed": 20261106,
+  "slice_id": "GIS-003-SLICE-01",
+  "triangles": {
+   "Buildings": 10996,
+   "Props": 12521,
+   "Street": 5910
+  }
+ },
+ "schema_version": 1,
+ "slice_id": "GIS-003-SLICE-01"
+}

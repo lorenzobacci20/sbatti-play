@@ -1,0 +1,65 @@
+{
+  "version": "0.1.0-alpha.1",
+  "dateUtc": "2026-11-06T14:47:30.655760+00:00",
+  "sourceCommit": "7e8d9f7fbc79832ef6646f1a5565e6feda923c6f",
+  "scene": "Prototype_Graybox",
+  "unityEditor": "6000.3.10f1",
+  "loader": "releases/0.1.0-alpha.1/Build/SBATTI.loader.js",
+  "transport": "uncompressed; optional HTTP compression managed by hosting",
+  "unity": {
+    "dataUrl": "releases/0.1.0-alpha.1/Build/SBATTI.data",
+    "frameworkUrl": "releases/0.1.0-alpha.1/Build/SBATTI.framework.js",
+    "codeUrl": "releases/0.1.0-alpha.1/Build/SBATTI.wasm",
+    "companyName": "DefaultCompany",
+    "productName": "SBATTI",
+    "productVersion": "0.1.0"
+  },
+  "knownIssues": [
+    "Placeholder art and HUD",
+    "No real map, story, saves, audio or multiplayer",
+    "Only Chrome desktop on Mac tested"
+  ],
+  "note": "Public prerelease version is recorded here; the unmodified Unity player retains source bundleVersion 0.1.0.",
+  "packages": [
+    {
+      "name": "com.unity.ai.navigation",
+      "version": "2.0.10"
+    },
+    {
+      "name": "com.unity.burst",
+      "version": "1.8.28"
+    },
+    {
+      "name": "com.unity.collections",
+      "version": "2.6.2"
+    },
+    {
+      "name": "com.unity.inputsystem",
+      "version": "1.18.0"
+    },
+    {
+      "name": "com.unity.mathematics",
+      "version": "1.3.3"
+    },
+    {
+      "name": "com.unity.render-pipelines.core",
+      "version": "17.3.0"
+    },
+    {
+      "name": "com.unity.render-pipelines.universal-config",
+      "version": "17.0.3"
+    },
+    {
+      "name": "com.unity.render-pipelines.universal",
+      "version": "17.3.0"
+    },
+    {
+      "name": "com.unity.shadergraph",
+      "version": "17.3.0"
+    },
+    {
+      "name": "com.unity.ugui",
+      "version": "2.0.0"
+    }
+  ]
+}

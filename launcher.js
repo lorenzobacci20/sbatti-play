@@ -53,7 +53,7 @@ byId("play").addEventListener("click", async () => {
 byId("retry").addEventListener("click", () => location.reload());
 byId("fullscreen").addEventListener("click", () => unity?.SetFullscreen(1));
 byId("copy-feedback").addEventListener("click", async () => {
-  const text = "SBATTI 0.2.0-alpha.1\nBrowser e sistema operativo: \nTipo: bug / idea\nCosa ho fatto (passaggi): \nCosa mi aspettavo: \nCosa è successo: \nSi ripete? sempre / a volte / una volta\nImpatto: blocco / grave / minore\nScreenshot facoltativo, senza dati privati.\n";
+  const text = "SBATTI 0.2.0-alpha.2\nBrowser e sistema operativo: \nTipo: bug / idea\nCosa ho fatto (passaggi): \nCosa mi aspettavo: \nCosa è successo: \nSi ripete? sempre / a volte / una volta\nImpatto: blocco / grave / minore\nScreenshot facoltativo, senza dati privati.\n";
   try {
     await navigator.clipboard.writeText(text);
     byId("copy-status").textContent = "Scheda copiata. Incollala nel messaggio privato a chi ti ha invitato.";

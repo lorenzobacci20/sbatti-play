@@ -1,3 +1,18 @@
+# 0.2.0-alpha.2
+
+- GIS-004D: facciate e coperture più varie, lotti, recinzioni, accessi e raccordi dei marciapiedi.
+- Nuovi corridoi di dettaglio lungo Via Giolitti e il suo ramo.
+- GIS-004E: correzione locale del profilo stradale del ramo di Via Giolitti in base a TINITALY/1.1.
+- Stesso perimetro di AOI-001 e stessi controlli a piedi e in auto.
+
+Problemi noti:
+
+- Quote da TINITALY a 10 m. Le pendenze della carreggiata reale possono differire.
+- Tipologie degli edifici, facciate, recinzioni e muri sono stime. La fedeltà architettonica è in revisione.
+- Il dettaglio è limitato a Settembrini–Gagarin e ai corridoi di Via Giolitti.
+- Nessuna missione, NPC, traffico, audio, salvataggio o multiplayer.
+- Collaudo browser su Chrome desktop su Mac.
+
 # 0.2.0-alpha.1
 
 - Mappa reale AOI-001: San Mariano, Corciano (circa 1 km²), al posto del circuito graybox.

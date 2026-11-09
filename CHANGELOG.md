@@ -1,3 +1,16 @@
+# 0.4.0-alpha.1
+
+- MAIN_001: incontro, quattro battute, Gabri e Nico visibili in auto, un unico segnalino d’arrivo, un breve dialogo in viaggio e la conclusione.
+- SAVE-001: checkpoint versionati, recupero dalla pausa e rigiocabilità con esito conservato.
+- Personaggi low-poly originali, passi, motore, ambiente ed effetti di interazione.
+
+Problemi noti:
+
+- Quote da TINITALY a 10 m. Le pendenze effettive possono differire.
+- Il salvataggio WebGL appartiene all’origine e al profilo browser. Può essere cancellato dai dati del sito.
+- Alcuni raccordi pedonali restano discontinui. Test di riconoscibilità e durata con tre persone ancora da raccogliere.
+- Target WebGL di collaudo: Chrome desktop su macOS.
+
 # 0.3.0-alpha.1
 
 - Facciate leggere su 177 edifici in più nel perimetro di San Mariano.

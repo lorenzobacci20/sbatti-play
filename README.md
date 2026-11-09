@@ -1,12 +1,14 @@
-# SBATTI — Alpha 0.3.0
+# SBATTI — Alpha 0.4.0
 
 [Gioca nel browser desktop](https://lorenzobacci20.github.io/sbatti-play/)
 
-Versione tecnica `0.3.0-alpha.1` · sorgente `fed500497b82b29740b174b312db8a8a29f540ef` · Unity 6000.3.10f1 · scena `World_AOI-001`.
+Versione tecnica `0.4.0-alpha.1` · sorgente `af75956fe0c1cdc39200ff5c923f696f005b9859` · Unity 6000.3.10f1 · scena `World_AOI-001`.
 
-Il chilometro quadrato di San Mariano (Corciano) con facciate, percorsi pedonali, attraversamenti e verde.
+Solo un passaggio, il primo episodio giocabile nel chilometro quadrato di San Mariano.
 
-Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.3.0-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato. Nessuna missione o salvataggio.
+Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.4.0-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato.
+
+Segui il segnalino per incontrare Nico. Usa E per parlare e salire in auto. Al volante vedrai Gabri accanto a Nico. Segui l’unico segnalino fino alla destinazione e fermati lì. Tab apre la pausa, con recupero dal checkpoint e audio. Il progresso si conserva su questo browser e indirizzo.
 
 [Bug](https://github.com/lorenzobacci20/sbatti-play/issues/new?template=bug.yml) · [Suggerimenti](https://github.com/lorenzobacci20/sbatti-play/issues/new?template=suggestion.yml). Richiesto account GitHub; senza account copia la scheda feedback dal sito e inviala in privato a chi ti ha invitato. Non pubblicare nomi, chat, abitazioni o dati privati.
 

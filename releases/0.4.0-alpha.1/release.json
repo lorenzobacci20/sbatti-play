@@ -1,7 +1,7 @@
 {
   "version": "0.4.0-alpha.1",
-  "dateUtc": "2026-11-09T19:02:28.748926+00:00",
-  "sourceCommit": "66de730aa3a72e44e04a62f19d60e70c7b7b7451",
+  "dateUtc": "2026-11-09T19:58:26.870465+00:00",
+  "sourceCommit": "95c2a49de9d4b14fb9ea7d2c1d5e077b2add1439",
   "scene": "World_AOI-001",
   "unityEditor": "6000.3.10f1",
   "loader": "releases/0.4.0-alpha.1/Build/SBATTI.loader.js",

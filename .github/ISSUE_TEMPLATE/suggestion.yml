@@ -9,7 +9,7 @@ body:
     id: version
     attributes:
       label: Versione provata
-      placeholder: 0.3.0-alpha.1
+      placeholder: 0.4.0-alpha.1
     validations:
       required: true
   - type: textarea

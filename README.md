@@ -2,7 +2,7 @@
 
 [Gioca nel browser desktop](https://lorenzobacci20.github.io/sbatti-play/)
 
-Versione tecnica `0.4.0-alpha.1` · sorgente `95c2a49de9d4b14fb9ea7d2c1d5e077b2add1439` · Unity 6000.3.10f1 · scena `World_AOI-001`.
+Versione tecnica `0.4.0-alpha.1` · sorgente `af75956fe0c1cdc39200ff5c923f696f005b9859` · Unity 6000.3.10f1 · scena `World_AOI-001`.
 
 Solo un passaggio, il primo episodio giocabile nel chilometro quadrato di San Mariano.
 

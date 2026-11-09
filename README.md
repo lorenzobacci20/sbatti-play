@@ -1,12 +1,12 @@
-# SBATTI — Alpha 0.2.0
+# SBATTI — Alpha 0.3.0
 
 [Gioca nel browser desktop](https://lorenzobacci20.github.io/sbatti-play/)
 
-Versione tecnica `0.2.0-alpha.2` · sorgente `69cf8a65d846381f9f919dcc92c3a50697c6ce12` · Unity 6000.3.10f1 · scena `World_AOI-001`.
+Versione tecnica `0.3.0-alpha.1` · sorgente `fed500497b82b29740b174b312db8a8a29f540ef` · Unity 6000.3.10f1 · scena `World_AOI-001`.
 
-San Mariano (Corciano) con la seconda versione della zona di dettaglio su Via Settembrini, alla rotatoria Gagarin e lungo Via Giolitti.
+Il chilometro quadrato di San Mariano (Corciano) con facciate, percorsi pedonali, attraversamenti e verde.
 
-Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.2.0-alpha.2/data/aoi-001/README.md)). Il sorgente del gioco resta privato. Nessuna missione o salvataggio.
+Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.3.0-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato. Nessuna missione o salvataggio.
 
 [Bug](https://github.com/lorenzobacci20/sbatti-play/issues/new?template=bug.yml) · [Suggerimenti](https://github.com/lorenzobacci20/sbatti-play/issues/new?template=suggestion.yml). Richiesto account GitHub; senza account copia la scheda feedback dal sito e inviala in privato a chi ti ha invitato. Non pubblicare nomi, chat, abitazioni o dati privati.
 

@@ -1,3 +1,17 @@
+# 0.3.0-alpha.1
+
+- Facciate leggere su 177 edifici in più nel perimetro di San Mariano.
+- Più attraversamenti e percorsi pedonali mappati in OpenStreetMap.
+- Cordoli ribassati ai passaggi pedonali dei piloti, segnaletica della fermata di Via Giolitti e cartelli solari stilizzati su Via Settembrini.
+
+Problemi noti:
+
+- Quote da TINITALY a 10 m. Le pendenze effettive possono differire.
+- Facciate, disegno della segnaletica e dettagli di arredo sono stilizzati. I segnali solari sono statici.
+- Alcuni percorsi pedonali si interrompono dove la geometria disponibile non consente un raccordo.
+- Nessuna missione, NPC, traffico, audio, salvataggio o multiplayer.
+- Collaudo browser su Chrome desktop su Mac.
+
 # 0.2.0-alpha.2
 
 - GIS-004D: facciate e coperture più varie, lotti, recinzioni, accessi e raccordi dei marciapiedi.

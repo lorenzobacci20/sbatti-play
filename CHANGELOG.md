@@ -1,6 +1,6 @@
 # 0.4.0-alpha.1
 
-- MAIN_001: incontro, quattro battute, Gabri e Nico visibili in auto, un unico segnalino d’arrivo e conclusione.
+- MAIN_001: incontro, quattro battute, Gabri e Nico visibili in auto, un unico segnalino d’arrivo, un breve dialogo in viaggio e la conclusione.
 - SAVE-001: checkpoint versionati, recupero dalla pausa e rigiocabilità con esito conservato.
 - Personaggi low-poly originali, passi, motore, ambiente ed effetti di interazione.
 

@@ -2,3 +2,65 @@
 
 .map-credit{margin:.4rem 0 0;font-size:.78rem;opacity:.8}
 .map-credit a{color:inherit}
+
+/* The Unity bridge adds this class only when a touch layout is available. */
+#player.touch-ready { min-height: 0; }
+.touch-ready #unity-canvas {
+  height: min(64vh, 34rem);
+  height: min(64svh, 34rem);
+  aspect-ratio: auto;
+  touch-action: none;
+}
+@media (orientation: landscape) {
+  .touch-ready #unity-canvas {
+    height: min(83vh, 40rem);
+    height: min(83svh, 40rem);
+  }
+}
+#touch-controls {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+#touch-controls button, .touch-look, .touch-stick {
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.touch-look { position: absolute; inset: 0 0 0 42%; }
+.touch-stick {
+  position: absolute;
+  left: 12px;
+  bottom: 20px;
+  display: grid;
+  place-items: center;
+  width: clamp(78px, 23vw, 112px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid #bceadaaa;
+  background: #101f2bc4;
+}
+.touch-stick span {
+  width: 45%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #bceada;
+  pointer-events: none;
+}
+#touch-controls button {
+  min-height: 44px;
+  padding: 0 10px;
+  border: 1px solid #bceadaaa;
+  border-radius: 8px;
+  background: #132631eb;
+  color: #fff;
+  font: 700 14px Arial, sans-serif;
+}
+#touch-controls button.held { background: #34776c; }
+.touch-pause { position: absolute; top: 12px; right: 12px; }
+.touch-actions, .touch-pedals { position: absolute; right: 12px; display: flex; gap: 8px; }
+.touch-actions { bottom: 76px; }
+.touch-pedals { bottom: 20px; }
+.touch-pedals button { min-width: 58px; }
+#touch-controls:has(.touch-look[hidden]) .touch-actions { bottom: 12px; }

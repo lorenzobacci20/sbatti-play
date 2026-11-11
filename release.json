@@ -1,15 +1,15 @@
 {
-  "version": "0.4.0-alpha.1",
-  "dateUtc": "2026-11-09T20:59:16.126458+00:00",
-  "sourceCommit": "af75956fe0c1cdc39200ff5c923f696f005b9859",
+  "version": "0.4.2-alpha.1",
+  "dateUtc": "2026-11-11T14:15:01.808352+00:00",
+  "sourceCommit": "36eb65a0d850e5f1a76a5ec2d33a57a952f0fc45",
   "scene": "World_AOI-001",
   "unityEditor": "6000.3.10f1",
-  "loader": "releases/0.4.0-alpha.1/Build/SBATTI.loader.js",
+  "loader": "releases/0.4.2-alpha.1/Build/SBATTI.loader.js",
   "transport": "uncompressed; optional HTTP compression managed by hosting",
   "unity": {
-    "dataUrl": "releases/0.4.0-alpha.1/Build/SBATTI.data",
-    "frameworkUrl": "releases/0.4.0-alpha.1/Build/SBATTI.framework.js",
-    "codeUrl": "releases/0.4.0-alpha.1/Build/SBATTI.wasm",
+    "dataUrl": "releases/0.4.2-alpha.1/Build/SBATTI.data",
+    "frameworkUrl": "releases/0.4.2-alpha.1/Build/SBATTI.framework.js",
+    "codeUrl": "releases/0.4.2-alpha.1/Build/SBATTI.wasm",
     "companyName": "DefaultCompany",
     "productName": "SBATTI",
     "productVersion": "0.1.0"
@@ -18,7 +18,7 @@
     "Quote da TINITALY a 10 m. Le pendenze effettive possono differire.",
     "Il salvataggio WebGL appartiene all\u2019origine e al profilo browser. Pu\u00f2 essere cancellato dai dati del sito.",
     "Alcuni raccordi pedonali restano discontinui. Test di riconoscibilit\u00e0 e durata con tre persone ancora da raccogliere.",
-    "Target WebGL di collaudo: Chrome desktop su macOS."
+    "Comandi touch in collaudo su Safari iPhone. Verifica su un Android fisico ancora da completare."
   ],
   "note": "Public prerelease version is recorded here; the unmodified Unity player retains source bundleVersion 0.1.0.",
   "packages": [
@@ -87,26 +87,32 @@
       "sourceCommit": "fed500497b82b29740b174b312db8a8a29f540ef",
       "scene": "World_AOI-001",
       "manifest": "releases/0.3.0-alpha.1/release.json"
+    },
+    {
+      "version": "0.4.0-alpha.1",
+      "sourceCommit": "af75956fe0c1cdc39200ff5c923f696f005b9859",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.4.0-alpha.1/release.json"
     }
   ],
   "data": {
     "license": "ODbL-1.0 (OpenStreetMap-derived database); TINITALY/1.1 CC BY 4.0",
     "files": [
       {
-        "file": "releases/0.4.0-alpha.1/data/aoi-001/osm-extract.json",
+        "file": "releases/0.4.2-alpha.1/data/aoi-001/osm-extract.json",
         "sha256": "5a8dd3076372f9175b74f40686d9a6e240b274bcb81ea3895cfb56fcdeecb750"
       },
       {
-        "file": "releases/0.4.0-alpha.1/data/aoi-001/osm-detail-extract.json",
+        "file": "releases/0.4.2-alpha.1/data/aoi-001/osm-detail-extract.json",
         "sha256": "64d05f3df62a3c46ccab95b8d44c94aef94b8a52533cd73ca4f54c2593c1e070"
       },
       {
-        "file": "releases/0.4.0-alpha.1/data/aoi-001/derived-world.json",
-        "sha256": "2db1be93297a90667ba62bf4711c381035cf3395938834791c8ec1818c76ebd4"
+        "file": "releases/0.4.2-alpha.1/data/aoi-001/derived-world.json",
+        "sha256": "47bc2ad3781ca9b41b392cb2aa7424757b65c6162fa1612c1675fc3b184774c4"
       },
       {
-        "file": "releases/0.4.0-alpha.1/data/aoi-001/derived-detail.json",
-        "sha256": "1eb8c0397cc222e935bcbe1616983e84ba8361935019079b0438fe3497cc496c"
+        "file": "releases/0.4.2-alpha.1/data/aoi-001/derived-detail.json",
+        "sha256": "caa9c6897f7d7195026918f036c63b79d16f60289f94a8a3d2936a08ef73296b"
       }
     ],
     "attribution": [

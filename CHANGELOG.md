@@ -1,3 +1,17 @@
+# 0.4.2-alpha.1
+
+- Menu iniziale con Continua, Nuova partita e Impostazioni. Continua legge i salvataggi della 0.4.0-alpha.1.
+- Raccordo pedonale continuo ai due attraversamenti di Via Parco.
+- Stick virtuale, visuale trascinabile e comandi contestuali su WebGL touch.
+- Gas e freno si possono tenere premuti mentre si sterza.
+
+Problemi noti:
+
+- Quote da TINITALY a 10 m. Le pendenze effettive possono differire.
+- Il salvataggio WebGL appartiene all’origine e al profilo browser. Può essere cancellato dai dati del sito.
+- Alcuni raccordi pedonali restano discontinui. Test di riconoscibilità e durata con tre persone ancora da raccogliere.
+- Comandi touch in collaudo su Safari iPhone. Verifica su un Android fisico ancora da completare.
+
 # 0.4.0-alpha.1
 
 - MAIN_001: incontro, quattro battute, Gabri e Nico visibili in auto, un unico segnalino d’arrivo, un breve dialogo in viaggio e la conclusione.

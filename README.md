@@ -1,14 +1,14 @@
-# SBATTI — Alpha 0.4.0
+# SBATTI — Alpha 0.4.2
 
 [Gioca nel browser desktop](https://lorenzobacci20.github.io/sbatti-play/)
 
-Versione tecnica `0.4.0-alpha.1` · sorgente `af75956fe0c1cdc39200ff5c923f696f005b9859` · Unity 6000.3.10f1 · scena `World_AOI-001`.
+Versione tecnica `0.4.2-alpha.1` · sorgente `36eb65a0d850e5f1a76a5ec2d33a57a952f0fc45` · Unity 6000.3.10f1 · scena `World_AOI-001`.
 
 Solo un passaggio, il primo episodio giocabile nel chilometro quadrato di San Mariano.
 
-Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.4.0-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato.
+Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.4.2-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato.
 
-Segui il segnalino per incontrare Nico. Usa E per parlare e salire in auto. Al volante vedrai Gabri accanto a Nico. Segui l’unico segnalino fino alla destinazione e fermati lì. Tab apre la pausa, con recupero dal checkpoint e audio. Il progresso si conserva su questo browser e indirizzo.
+Scegli Continua o Nuova partita. Su telefono usa lo stick a sinistra per muoverti o sterzare e trascina a destra per la visuale. Interagisci per parlare, entrare o uscire dall’auto. In auto usa Gas e Freno. Apri Pausa per riprendere o tornare al menu.
 
 [Bug](https://github.com/lorenzobacci20/sbatti-play/issues/new?template=bug.yml) · [Suggerimenti](https://github.com/lorenzobacci20/sbatti-play/issues/new?template=suggestion.yml). Richiesto account GitHub; senza account copia la scheda feedback dal sito e inviala in privato a chi ti ha invitato. Non pubblicare nomi, chat, abitazioni o dati privati.
 

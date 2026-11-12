@@ -6,7 +6,7 @@ I due personaggi, le loro animazioni e gli effetti sonori sintetici sono origina
 
 ## Dati geografici
 
-- **OpenStreetMap.** La mappa contiene informazioni da OpenStreetMap, rese disponibili con licenza [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/) — © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Le mesh del gioco sono un *Produced Work*; il [database derivato](releases/0.4.2-alpha.1/data/aoi-001/README.md) è offerto con licenza ODbL.
+- **OpenStreetMap.** La mappa contiene informazioni da OpenStreetMap, rese disponibili con licenza [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/) — © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Le mesh del gioco sono un *Produced Work*; il [database derivato](releases/0.4.3-alpha.1/data/aoi-001/README.md) è offerto con licenza ODbL.
 - **TINITALY/1.1.** Tarquini S., Isola I., Favalli M., Battistini A., Dotta G. (2023). *TINITALY, a digital elevation model of Italy with a 10 meters cell size* (Version 1.1). Istituto Nazionale di Geofisica e Vulcanologia (INGV). https://doi.org/10.13127/tinitaly/1.1 — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). **Modificato:** ritagliato all'area, ricampionato, livellato e adattato a strade e scarpate.
 - Posizioni e tracciati mappati provengono da OSM. Facciate, colori, forma della segnaletica e dettagli decorativi sono stilizzati.
 

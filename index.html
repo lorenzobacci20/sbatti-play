@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="SBATTI Alpha: cammina e guida a San Mariano (Corciano), mappa reale da OpenStreetMap, direttamente nel browser.">
   <meta name="theme-color" content="#131b21">
-  <title>SBATTI — Alpha 0.4.2</title>
+  <title>SBATTI — Alpha 0.4.3</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css">
-  <script src="launcher.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=0.4.3-alpha.1">
+  <script src="launcher.js?v=0.4.3-alpha.1" defer></script>
 </head>
 <body>
 <main>
-  <header><a class="brand" href="./">SBATTI<span>UMBRIA / WORK IN PROGRESS</span></a><span class="badge">ALPHA 0.4.2</span></header>
+  <header><a class="brand" href="./">SBATTI<span>UMBRIA / WORK IN PROGRESS</span></a><span class="badge">ALPHA 0.4.3</span></header>
   <section class="intro">
     <p class="eyebrow">SAN MARIANO · CORCIANO · PROGRAMMA BETA TESTER</p>
     <h1>Si parte<br><em>da San Mariano.</em></h1>
@@ -22,20 +22,20 @@
   <section id="player" aria-label="Gioco SBATTI">
     <div id="cover">
       <div class="road" aria-hidden="true"><span>01</span></div>
-      <div class="start"><p class="eyebrow">SBATTI — ALPHA 0.4.2</p><h2>Facciamo un giro?</h2><p>Il prototipo (circa 65 MB) si scarica quando premi Gioca.<br>Su telefono compaiono i comandi touch dopo il menu.</p><button id="play" type="button">GIOCA <span aria-hidden="true">↗</span></button></div>
+      <div class="start"><p class="eyebrow">SBATTI — ALPHA 0.4.3</p><h2>Facciamo un giro?</h2><p>Il prototipo (circa 65 MB) si scarica quando premi Gioca.<br>Su telefono compaiono i comandi touch dopo il menu.</p><button id="play" type="button">GIOCA <span aria-hidden="true">↗</span></button></div>
     </div>
     <div id="unity-loading-bar" hidden><p id="status" role="status" aria-live="polite">Preparazione…</p><progress id="progress" max="1" value="0">0%</progress><p>Il primo caricamento può richiedere un minuto.</p></div>
     <canvas id="unity-canvas" width="1280" height="720" tabindex="0" hidden aria-label="SBATTI, gioco 3D. Clicca per catturare il mouse; Esc per liberarlo."></canvas>
     <div id="load-error" role="alert" hidden><h2>Il giro deve aspettare.</h2><p id="error-detail"></p><button type="button" id="retry">Riprova</button><a href="https://github.com/lorenzobacci20/sbatti-play/issues/new?template=bug.yml">Segnala il problema</a></div>
   </section>
-  <div class="player-bar"><span id="player-hint">WebGL 2 · 0.4.2-alpha.1</span><button id="fullscreen" type="button" disabled>Schermo intero</button></div>
-  <p class="map-credit">Mappa: contiene informazioni da <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, licenza <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL</a> — © OpenStreetMap contributors (<a href="releases/0.4.2-alpha.1/data/aoi-001/README.md">database derivato</a>). Quote: <a href="https://doi.org/10.13127/tinitaly/1.1">TINITALY/1.1</a>, INGV, CC BY 4.0, modificato.</p>
+  <div class="player-bar"><span id="player-hint">WebGL 2 · 0.4.3-alpha.1</span><button id="fullscreen" type="button" disabled>Schermo intero</button></div>
+  <p class="map-credit">Mappa: contiene informazioni da <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, licenza <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL</a> — © OpenStreetMap contributors (<a href="releases/0.4.3-alpha.1/data/aoi-001/README.md">database derivato</a>). Quote: <a href="https://doi.org/10.13127/tinitaly/1.1">TINITALY/1.1</a>, INGV, CC BY 4.0, modificato.</p>
   <section class="details">
     <article><p class="eyebrow">01 / COMANDI</p><h2>A piedi e al volante</h2><dl><dt>W A S D</dt><dd>Muoviti / guida</dd><dt>Mouse</dt><dd>Ruota la camera</dd><dt>Shift</dt><dd>Corri a piedi</dd><dt>Spazio</dt><dd>Salta / freno a mano in auto</dd><dt>E</dt><dd>Entra o scendi dall’auto ferma</dd><dt>S in auto</dt><dd>Frena; tieni premuto da fermo per la retro</dd><dt>Clic / Esc</dt><dd>Cattura / libera il mouse</dd></dl><p>Scegli Continua o Nuova partita. Su telefono usa lo stick a sinistra per muoverti o sterzare e trascina a destra per la visuale. Interagisci per parlare, entrare o uscire dall’auto. In auto usa Gas e Freno. Apri Pausa per riprendere o tornare al menu.</p></article>
     <article><p class="eyebrow">02 / QUESTA BUILD</p><h2>Esplora San Mariano.</h2><ul><li>San Mariano (Corciano), circa 1 km²: strade, rotatorie ed edifici reali.</li><li>Incontra Nico su Via Settembrini, parlagli e accompagnalo in auto oltre la seconda rotatoria.</li><li>Salite reali: prova Via Giolitti, a sinistra all’incrocio in fondo a Via Settembrini.</li><li>Personaggio in terza persona, corsa, salto e auto arcade.</li></ul><h3>Problemi noti</h3><p>Quote dal modello del terreno a 10 m: le pendenze reali possono differire. Facciate, colori, marciapiedi e arredi sono stime, non rilievi. I tracciati sono basati sui dati disponibili. Alcuni percorsi pedonali restano discontinui. Gabri, Nico, dialoghi e audio sono provvisori. Le partite riprendono dal checkpoint e il gioco è single-player. Testata su Chrome desktop su Mac; altri browser, PC e dispositivi mobili non ancora validati.</p></article>
     <article><p class="eyebrow">03 / DICCI COM’È ANDATA</p><h2>Ogni giro aiuta.</h2><p>Un bug? Raccontaci cosa hai fatto e cosa ti aspettavi. Uno screenshot può aiutare: prima rimuovi nomi, notifiche e dati privati.</p><a class="action" href="https://github.com/lorenzobacci20/sbatti-play/issues/new?template=bug.yml">Segnala un problema ↗</a><a class="secondary" href="https://github.com/lorenzobacci20/sbatti-play/issues/new?template=suggestion.yml">Proponi un’idea ↗</a><p>GitHub richiede un account e le segnalazioni sono pubbliche. Senza account, <button class="text-button" id="copy-feedback" type="button">copia la scheda feedback</button> e mandala in privato a chi ti ha invitato, con il canale che usate già. Nessun account aggiuntivo.</p><p id="copy-status" role="status" aria-live="polite"></p><textarea id="feedback-text" hidden readonly aria-label="Scheda feedback da copiare"></textarea></article>
   </section>
-  <footer><span>SBATTI · Alpha 0.4.2 · <a href="release.json">Dettagli versione</a> · <a href="ATTRIBUTIONS.md">Crediti e licenze</a></span><p>Nessun modulo di registrazione o analytics aggiunto dal launcher. Il sito è ospitato da GitHub Pages.</p></footer>
+  <footer><span>SBATTI · Alpha 0.4.3 · <a href="release.json">Dettagli versione</a> · <a href="ATTRIBUTIONS.md">Crediti e licenze</a></span><p>Nessun modulo di registrazione o analytics aggiunto dal launcher. Il sito è ospitato da GitHub Pages.</p></footer>
 </main>
 </body>
 </html>

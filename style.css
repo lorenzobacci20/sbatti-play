@@ -11,16 +11,42 @@
   aspect-ratio: auto;
   touch-action: none;
 }
+@media (orientation: portrait) and (max-width: 300px) {
+  .touch-ready #unity-canvas {
+    /* Leave room above the controls for several wrapped lines. */
+    height: 80vh;
+    height: 80svh;
+  }
+}
 @media (orientation: landscape) {
   .touch-ready #unity-canvas {
     height: min(83vh, 40rem);
     height: min(83svh, 40rem);
   }
 }
+/* Keep long dialogue below the actors when it has to sit above Avanti. */
+@media (orientation: portrait) and (max-width: 375px) {
+  #player.touch-ready:has(#touch-controls:not([hidden]) .touch-look[hidden]) {
+    padding-bottom: clamp(64px, calc(252px - 50vw), 112px);
+  }
+  #player.touch-ready:has(#touch-controls:not([hidden]) .touch-look[hidden]) #unity-canvas {
+    max-height: calc(100vh - 126px);
+    max-height: calc(100svh - 126px);
+  }
+}
+@media (orientation: landscape) and (max-width: 700px) {
+  #player.touch-ready:has(#touch-controls:not([hidden]) .touch-look[hidden]) {
+    padding-bottom: 20px;
+  }
+}
 #touch-controls {
   position: absolute;
   inset: 0;
   pointer-events: none;
+  --touch-left: env(safe-area-inset-left, 0px);
+  --touch-right: env(safe-area-inset-right, 0px);
+  --touch-top: env(safe-area-inset-top, 0px);
+  --touch-bottom: env(safe-area-inset-bottom, 0px);
 }
 #touch-controls button, .touch-look, .touch-stick {
   pointer-events: auto;
@@ -31,8 +57,8 @@
 .touch-look { position: absolute; inset: 0 0 0 42%; }
 .touch-stick {
   position: absolute;
-  left: 12px;
-  bottom: 20px;
+  left: calc(12px + var(--touch-left));
+  bottom: calc(20px + var(--touch-bottom));
   display: grid;
   place-items: center;
   width: clamp(78px, 23vw, 112px);
@@ -58,9 +84,38 @@
   font: 700 14px Arial, sans-serif;
 }
 #touch-controls button.held { background: #34776c; }
-.touch-pause { position: absolute; top: 12px; right: 12px; }
-.touch-actions, .touch-pedals { position: absolute; right: 12px; display: flex; gap: 8px; }
-.touch-actions { bottom: 76px; }
-.touch-pedals { bottom: 20px; }
+.touch-pause { position: absolute; top: calc(12px + var(--touch-top)); right: calc(12px + var(--touch-right)); }
+.touch-actions, .touch-pedals { position: absolute; right: calc(12px + var(--touch-right)); display: flex; gap: 8px; }
+.touch-actions { bottom: calc(76px + var(--touch-bottom)); }
+.touch-pedals { bottom: calc(20px + var(--touch-bottom)); }
 .touch-pedals button { min-width: 58px; }
-#touch-controls:has(.touch-look[hidden]) .touch-actions { bottom: 12px; }
+#touch-controls:has(.touch-look[hidden]) .touch-actions { bottom: calc(12px + var(--touch-bottom)); }
+
+.touch-caption-area {
+  position: absolute;
+  inset: calc(12px + var(--touch-top)) calc(12px + var(--touch-right))
+    calc(12px + var(--touch-bottom)) calc(12px + var(--touch-left));
+}
+.touch-caption {
+  position: absolute;
+  display: grid;
+  gap: 4px;
+  padding: 8px 11px;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  border-left: 3px solid #91f0c9;
+  border-radius: 6px;
+  background: rgb(9 18 24 / 85%);
+  color: #fff;
+  font: 16px/1.28 Arial, sans-serif;
+}
+.touch-caption strong { color: #a8f5d6; }
+.touch-caption-notice, .touch-caption-status { color: #e0e9e8; font-size: 14px; }
+.touch-caption-meta {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  color: #cfdddf;
+  font: 12px/1.25 Arial, sans-serif;
+}

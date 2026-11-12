@@ -1,3 +1,15 @@
+# 0.4.3-alpha.1
+
+- Dialoghi e sottotitoli WebGL touch nella fascia inferiore, con testo più leggibile e spazio per i comandi.
+- In guida il sottotitolo può comparire insieme al messaggio di missione.
+
+Problemi noti:
+
+- Quote da TINITALY a 10 m. Le pendenze effettive possono differire.
+- Il salvataggio WebGL appartiene all’origine e al profilo browser. Può essere cancellato dai dati del sito.
+- Alcuni raccordi pedonali restano discontinui. Test di riconoscibilità e durata con tre persone ancora da raccogliere.
+- Controlli touch e rotazione verificati in Chrome emulato. Safari su iPhone e Chrome su Android fisici restano da verificare.
+
 # 0.4.2-alpha.1
 
 - Menu iniziale con Continua, Nuova partita e Impostazioni. Continua legge i salvataggi della 0.4.0-alpha.1.

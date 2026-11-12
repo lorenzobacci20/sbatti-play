@@ -55,7 +55,7 @@ byId("play").addEventListener("click", async () => {
 byId("retry").addEventListener("click", () => location.reload());
 byId("fullscreen").addEventListener("click", () => unity?.SetFullscreen(1));
 byId("copy-feedback").addEventListener("click", async () => {
-  const text = "SBATTI 0.4.2-alpha.1\nBrowser e sistema operativo: \nTipo: bug / idea\nCosa ho fatto (passaggi): \nCosa mi aspettavo: \nCosa è successo: \nSi ripete? sempre / a volte / una volta\nImpatto: blocco / grave / minore\nScreenshot facoltativo, senza dati privati.\n";
+  const text = "SBATTI 0.4.3-alpha.1\nBrowser e sistema operativo: \nTipo: bug / idea\nCosa ho fatto (passaggi): \nCosa mi aspettavo: \nCosa è successo: \nSi ripete? sempre / a volte / una volta\nImpatto: blocco / grave / minore\nScreenshot facoltativo, senza dati privati.\n";
   try {
     await navigator.clipboard.writeText(text);
     byId("copy-status").textContent = "Scheda copiata. Incollala nel messaggio privato a chi ti ha invitato.";
@@ -85,6 +85,14 @@ function installTouchControls() {
   layer.id = "touch-controls";
   layer.hidden = true;
   layer.innerHTML = `
+    <div class="touch-caption-area">
+      <div class="touch-caption" hidden>
+        <div class="touch-caption-line"></div>
+        <div class="touch-caption-notice"></div>
+        <div class="touch-caption-status"></div>
+        <div class="touch-caption-meta"><strong></strong><span>Tocca Avanti per proseguire.</span></div>
+      </div>
+    </div>
     <div class="touch-look" aria-hidden="true"></div>
     <div class="touch-stick" aria-hidden="true"><span></span></div>
     <button class="touch-pause" type="button">Pausa</button>
@@ -103,11 +111,75 @@ function installTouchControls() {
   const look = layer.querySelector(".touch-look");
   const interact = layer.querySelector(".touch-interact");
   const jump = layer.querySelector(".touch-jump");
+  const pause = layer.querySelector(".touch-pause");
+  const actions = layer.querySelector(".touch-actions");
   const pedals = layer.querySelector(".touch-pedals");
+  const captionArea = layer.querySelector(".touch-caption-area");
+  const caption = captionArea.firstElementChild;
+  const [captionLine, captionNotice, captionStatus, captionMeta] = caption.children;
   const axes = new Float32Array(6); // Move X/Y, look X/Y, gas, brake.
   const releases = [];
   let pending = 0;
   let mode = -1;
+  let hasCaption = false;
+  let dialogueCaption = false;
+
+  function placeCaption() {
+    caption.hidden = mode <= 0 || !hasCaption || dialogueCaption !== (mode === 3);
+    if (caption.hidden) return;
+    const area = captionArea.getBoundingClientRect();
+    const gap = 8;
+    const leftControl = stick.hidden ? null : stick.getBoundingClientRect();
+    const rightControls = [actions.getBoundingClientRect()];
+    if (!pedals.hidden) rightControls.push(pedals.getBoundingClientRect());
+
+    // Prefer the gap at the bottom, then the full width just above the controls.
+    // On a short screen, also try the space beside one group and above the other.
+    const left = Math.max(area.left, leftControl ? leftControl.right + gap : area.left);
+    const right = Math.min(area.right, ...rightControls.map((rect) => rect.left - gap));
+    const leftTop = leftControl ? leftControl.top - gap : area.bottom;
+    const rightTop = Math.min(area.bottom, ...rightControls.map((rect) => rect.top - gap));
+    const center = [left, right, area.bottom];
+    const above = [area.left, area.right, Math.min(leftTop, rightTop)];
+    const slots = right - left >= 244 ? [center, above] : [above, center];
+    if (leftControl) slots.push([left, area.right, rightTop], [area.left, right, leftTop]);
+
+    const pauseBottom = pause.getBoundingClientRect().bottom + gap;
+    function applySlot([start, end, bottom]) {
+      const width = Math.min(Math.max(0, end - start), 540);
+      caption.style.left = `${(start + end - width) / 2 - area.left}px`;
+      caption.style.width = `${width}px`;
+      caption.style.bottom = `${area.bottom - bottom}px`;
+      caption.style.maxHeight = `${Math.max(0, bottom - Math.max(area.top, pauseBottom))}px`;
+    }
+
+    let best = above;
+    let leastOverflow = Infinity;
+    for (const slot of slots) {
+      if (slot[1] - slot[0] < 144 || slot[2] <= pauseBottom) continue;
+      applySlot(slot);
+      const overflow = caption.scrollHeight - caption.clientHeight;
+      if (overflow <= 1) return;
+      if (overflow < leastOverflow) {
+        best = slot;
+        leastOverflow = overflow;
+      }
+    }
+    applySlot(best);
+  }
+
+  function writeCaption(element, text) {
+    const separator = text.indexOf(" · ");
+    element.hidden = !text;
+    element.textContent = text;
+    if (separator < 0) return;
+    const name = document.createElement("strong");
+    name.textContent = text.slice(0, separator);
+    element.replaceChildren(name, text.slice(separator));
+  }
+
+  const captionResize = new ResizeObserver(placeCaption);
+  for (const element of [captionArea, stick, actions, pedals, pause]) captionResize.observe(element);
 
   function hold(element, move, release) {
     let pointer;
@@ -174,7 +246,7 @@ function installTouchControls() {
       button.classList.remove("held");
     });
   }
-  for (const [button, flag] of [[interact, 1], [layer.querySelector(".touch-pause"), 2], [jump, 4]]) {
+  for (const [button, flag] of [[interact, 1], [pause, 2], [jump, 4]]) {
     button.addEventListener("click", () => { pending |= flag; });
   }
 
@@ -205,6 +277,7 @@ function installTouchControls() {
         jump.hidden = mode !== 1;
         pedals.hidden = mode !== 2;
         interact.textContent = mode === 3 ? "Avanti" : "Interagisci";
+        placeCaption();
       }
       heap.set(axes, offset);
       axes[2] = axes[3] = 0;
@@ -212,8 +285,19 @@ function installTouchControls() {
       pending = 0;
       return flags | 8;
     },
+    setCaption(line, notice, status, count) {
+      hasCaption = Boolean(line || notice || status);
+      dialogueCaption = Boolean(count);
+      writeCaption(captionLine, line);
+      writeCaption(captionNotice, notice);
+      writeCaption(captionStatus, status);
+      captionMeta.hidden = !count;
+      captionMeta.firstElementChild.textContent = "DIALOGO   " + count;
+      placeCaption();
+    },
     disable() {
       reset();
+      captionResize.disconnect();
       layer.hidden = true;
       player.classList.remove("touch-ready");
       delete window.sbattiTouch;

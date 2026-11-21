@@ -1,12 +1,12 @@
-# SBATTI — Alpha 0.4.3
+# SBATTI — Alpha 0.5.0
 
 [Gioca nel browser desktop](https://lorenzobacci20.github.io/sbatti-play/)
 
-Versione tecnica `0.4.3-alpha.1` · sorgente `e098ba0caf8fbd778a10d30728513032907a489e` · Unity 6000.3.10f1 · scena `World_AOI-001`.
+Versione tecnica `0.5.0-alpha.1` · sorgente `8d28c03a4caf5ae252faa92bab353a7eefcaf067` · Unity 6000.3.10f1 · scena `World_AOI-001`.
 
-Solo un passaggio, il primo episodio giocabile nel chilometro quadrato di San Mariano.
+Versione sperimentale con il mondo GIS-009 E: l’intero chilometro quadrato di San Mariano, con tutti i 210 edifici, i luoghi distintivi e il dettaglio urbano su ogni strada. Solo un passaggio resta giocabile.
 
-Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.4.3-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato.
+Questo repository contiene esclusivamente la distribuzione compilata, il launcher e il database derivato da OpenStreetMap offerto con licenza ODbL ([database e attribuzione](releases/0.5.0-alpha.1/data/aoi-001/README.md)). Il sorgente del gioco resta privato.
 
 Scegli Continua o Nuova partita. Su telefono usa lo stick a sinistra per muoverti o sterzare e trascina a destra per la visuale. Interagisci per parlare, entrare o uscire dall’auto. In auto usa Gas e Freno. Apri Pausa per riprendere o tornare al menu.
 

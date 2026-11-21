@@ -1,3 +1,24 @@
+# 0.5.1-alpha.1
+
+- Mondo GIS-010 F: il cavalcavia di Via Giuseppe Verdi scavalca la ferrovia, con spalle, parapetti e marciapiedi. Si attraversa in auto e a piedi; sotto passano i binari.
+- Ferrovia Terontola–Foligno: i 10 binari mappati, linea di contatto, marciapiedi, segnali, deviatoi e paraurti. Un treno scenografico originale fa la spola sotto il ponte e si ferma se trova qualcuno sul binario.
+- Terreno dal modello CNR HR-DTM-5m v1.3 a 5 m al posto di TINITALY a 10 m: salite e scarpate più fedeli.
+- Infrastrutture trovate dall’audit del km²: 790 m di fossi con i tombini, la cabina elettrica, il New Jersey, gli idranti, i cancelli, l’area pedonale lastricata, due fermate dell’autobus, una ciclabile mappata di recente e un grande edificio al bordo del mondo che prima mancava.
+
+Problemi noti:
+
+- Versione sperimentale: verificata con Chrome desktop su Mac. Telefoni, Safari e gli altri browser non sono ancora collaudati con questo mondo.
+- L’altezza del ponte è ricostruita, non misurata: franco di 6,90 m sopra le rotaie più 1 m di impalcato. La cartografia regionale, consultata solo in locale, la darebbe 0,2–0,5 m più bassa. Luce, spalle e parapetti sono stimati.
+- Le facciate dei 197 edifici ordinari sono stimate dal tipo: plausibili, non quelle vere. Sono documentati solo i corpi del Girasole; forma e colore dei tetti vengono dall’ortofoto.
+- Il parcheggio sul tetto dell’edificio commerciale a nord-est non si raggiunge: il ponte mappato non arriva alla quota del tetto.
+- Quattro ponticelli sui fossi, presenti nella cartografia regionale ma non in OpenStreetMap, non sono disegnati né verificati.
+- Elementi incerti non disegnati: 8 alberi mappati troppo vicini alla carreggiata o in parcheggi e incroci, un cancello senza spazio per l’anta, un parco giochi mappato solo come punto.
+- Il fabbricato della stazione di Ellera-Corciano è oltre il bordo del mondo: si vedono solo binari e marciapiedi.
+- I marciapiedi finiscono di netto agli incroci.
+- Quote dal modello CNR a 5 m: le pendenze effettive possono differire.
+- Il salvataggio WebGL appartiene all’origine e al profilo browser. Può essere cancellato dai dati del sito.
+- Prova di riconoscibilità e durata con tre persone ancora da raccogliere.
+
 # 0.5.0-alpha.1
 
 - Mondo GIS-009 E: tutti i 210 edifici di San Mariano, ciascuno col suo tipo (palazzine, villette, capannoni, commerciali, scuola, chiesa…), compresi i due pergolati del sagrato e i due edifici con parcheggio sul tetto.

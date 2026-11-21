@@ -1,3 +1,21 @@
+# 0.5.0-alpha.1
+
+- Mondo GIS-009 E: tutti i 210 edifici di San Mariano, ciascuno col suo tipo (palazzine, villette, capannoni, commerciali, scuola, chiesa…), compresi i due pergolati del sagrato e i due edifici con parcheggio sul tetto.
+- Dettaglio urbano su tutti i sette settori: 18 km di marciapiedi, lampioni, 939 alberi, 21 fermate, accessi carrabili, siepi, muri e parcheggi con auto in sosta.
+- Luoghi distintivi: il Girasole col portico aperto e percorribile, la chiesa dei Santi Severo e Agata, la cupola geodetica della scuola, 8 campi sportivi e il parcheggio sul tetto del supermercato di Via Aldo Moro, raggiungibile in auto.
+- Percorsi pedonali e ciclabili mappati disegnati anche dove escono in parte dall’area; la camera non entra più nei pali sottili.
+
+Problemi noti:
+
+- Versione sperimentale: verificata con Chrome desktop su Mac. Telefoni, Safari e gli altri browser non sono ancora collaudati con questo mondo.
+- Le facciate dei 197 edifici ordinari sono stimate dal tipo: plausibili, non quelle vere. Sono documentati solo i corpi del Girasole; forma e colore dei tetti vengono dall’ortofoto.
+- Il parcheggio sul tetto dell’edificio commerciale a nord-est non si raggiunge: il ponte mappato non arriva alla quota del tetto.
+- I marciapiedi finiscono di netto agli incroci.
+- Più pesante della 0.4.3: circa 85 MB da scaricare e circa 40 MiB di memoria in più.
+- Quote da TINITALY a 10 m. Le pendenze effettive possono differire.
+- Il salvataggio WebGL appartiene all’origine e al profilo browser. Può essere cancellato dai dati del sito.
+- Prova di riconoscibilità e durata con tre persone ancora da raccogliere.
+
 # 0.4.3-alpha.1
 
 - Dialoghi e sottotitoli WebGL touch nella fascia inferiore, con testo più leggibile e spazio per i comandi.

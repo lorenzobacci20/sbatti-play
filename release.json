@@ -1,26 +1,40 @@
 {
-  "version": "0.4.3-alpha.1",
-  "dateUtc": "2026-11-12T22:00:28.359721+00:00",
-  "sourceCommit": "e098ba0caf8fbd778a10d30728513032907a489e",
+  "version": "0.5.0-alpha.1",
+  "dateUtc": "2026-11-21T00:02:54.769691+00:00",
+  "sourceCommit": "8d28c03a4caf5ae252faa92bab353a7eefcaf067",
   "scene": "World_AOI-001",
   "unityEditor": "6000.3.10f1",
-  "loader": "releases/0.4.3-alpha.1/Build/after.loader.js",
+  "loader": "releases/0.5.0-alpha.1/Build/SBATTI.loader.js",
   "transport": "uncompressed; optional HTTP compression managed by hosting",
   "unity": {
-    "dataUrl": "releases/0.4.3-alpha.1/Build/after.data",
-    "frameworkUrl": "releases/0.4.3-alpha.1/Build/after.framework.js",
-    "codeUrl": "releases/0.4.3-alpha.1/Build/after.wasm",
+    "dataUrl": "releases/0.5.0-alpha.1/Build/SBATTI.data",
+    "frameworkUrl": "releases/0.5.0-alpha.1/Build/SBATTI.framework.js",
+    "codeUrl": "releases/0.5.0-alpha.1/Build/SBATTI.wasm",
     "companyName": "DefaultCompany",
     "productName": "SBATTI",
     "productVersion": "0.1.0"
   },
   "knownIssues": [
+    "Versione sperimentale: verificata con Chrome desktop su Mac. Telefoni, Safari e gli altri browser non sono ancora collaudati con questo mondo.",
+    "Le facciate dei 197 edifici ordinari sono stimate dal tipo: plausibili, non quelle vere. Sono documentati solo i corpi del Girasole; forma e colore dei tetti vengono dall\u2019ortofoto.",
+    "Il parcheggio sul tetto dell\u2019edificio commerciale a nord-est non si raggiunge: il ponte mappato non arriva alla quota del tetto.",
+    "I marciapiedi finiscono di netto agli incroci.",
+    "Pi\u00f9 pesante della 0.4.3: circa 85 MB da scaricare e circa 40 MiB di memoria in pi\u00f9.",
     "Quote da TINITALY a 10 m. Le pendenze effettive possono differire.",
     "Il salvataggio WebGL appartiene all\u2019origine e al profilo browser. Pu\u00f2 essere cancellato dai dati del sito.",
-    "Alcuni raccordi pedonali restano discontinui. Test di riconoscibilit\u00e0 e durata con tre persone ancora da raccogliere.",
-    "Controlli touch e rotazione verificati in Chrome emulato. Safari su iPhone e Chrome su Android fisici restano da verificare."
+    "Prova di riconoscibilit\u00e0 e durata con tre persone ancora da raccogliere."
   ],
   "note": "Public prerelease version is recorded here; the unmodified Unity player retains source bundleVersion 0.1.0.",
+  "world": {
+    "id": "GIS-009-E",
+    "generator": "python3 -m sbatti_gis build --gis009",
+    "packageSha256": {
+      "world.json": "64298ea749f516ca74087e1076777885852f03f799bfcf364ed3d1b3c09518be",
+      "world_meta.json": "810c1547a1a0fb3e235862367294f5ccc3d4e8d573fd3c4c0401f4b6154cdc1a",
+      "detail.json": "3b6c900866bb5c9f319670f12ec78e6a623da6fb4dcbf360c27f14bcc68e40a3",
+      "detail_meta.json": "d8f4607f8f0353772879d9e1b53d263b28439174a71d6940296e6847379f6f6c"
+    }
+  },
   "packages": [
     {
       "name": "com.unity.ai.navigation",
@@ -99,31 +113,42 @@
       "sourceCommit": "36eb65a0d850e5f1a76a5ec2d33a57a952f0fc45",
       "scene": "World_AOI-001",
       "manifest": "releases/0.4.2-alpha.1/release.json"
+    },
+    {
+      "version": "0.4.3-alpha.1",
+      "sourceCommit": "e098ba0caf8fbd778a10d30728513032907a489e",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.4.3-alpha.1/release.json"
     }
   ],
   "data": {
-    "license": "ODbL-1.0 (OpenStreetMap-derived database); TINITALY/1.1 CC BY 4.0",
+    "license": "ODbL-1.0 (OpenStreetMap-derived database); TINITALY/1.1 CC BY 4.0; AGEA Ortofoto 2023 CC BY 4.0 (roof observations)",
     "files": [
       {
-        "file": "releases/0.4.3-alpha.1/data/aoi-001/osm-extract.json",
+        "file": "releases/0.5.0-alpha.1/data/aoi-001/osm-extract.json",
         "sha256": "5a8dd3076372f9175b74f40686d9a6e240b274bcb81ea3895cfb56fcdeecb750"
       },
       {
-        "file": "releases/0.4.3-alpha.1/data/aoi-001/osm-detail-extract.json",
+        "file": "releases/0.5.0-alpha.1/data/aoi-001/osm-detail-extract.json",
         "sha256": "64d05f3df62a3c46ccab95b8d44c94aef94b8a52533cd73ca4f54c2593c1e070"
       },
       {
-        "file": "releases/0.4.3-alpha.1/data/aoi-001/derived-world.json",
-        "sha256": "47bc2ad3781ca9b41b392cb2aa7424757b65c6162fa1612c1675fc3b184774c4"
+        "file": "releases/0.5.0-alpha.1/data/aoi-001/osm-context-extract.json",
+        "sha256": "9c82048f8886488ca760ace09c4fd8d157663eb1bfb109c9de86543aca7e8dab"
       },
       {
-        "file": "releases/0.4.3-alpha.1/data/aoi-001/derived-detail.json",
-        "sha256": "caa9c6897f7d7195026918f036c63b79d16f60289f94a8a3d2936a08ef73296b"
+        "file": "releases/0.5.0-alpha.1/data/aoi-001/derived-world.json",
+        "sha256": "810c1547a1a0fb3e235862367294f5ccc3d4e8d573fd3c4c0401f4b6154cdc1a"
+      },
+      {
+        "file": "releases/0.5.0-alpha.1/data/aoi-001/derived-detail.json",
+        "sha256": "d8f4607f8f0353772879d9e1b53d263b28439174a71d6940296e6847379f6f6c"
       }
     ],
     "attribution": [
       "\u00a9 OpenStreetMap contributors (ODbL)",
-      "TINITALY/1.1, Tarquini et al. 2023, INGV, CC BY 4.0, doi:10.13127/tinitaly/1.1"
+      "TINITALY/1.1, Tarquini et al. 2023, INGV, CC BY 4.0, doi:10.13127/tinitaly/1.1",
+      "Contiene dati AGEA - Ortofoto 2023 (CC BY 4.0)"
     ]
   }
 }

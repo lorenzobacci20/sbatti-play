@@ -1,3 +1,26 @@
+# 0.5.2-alpha.1
+
+- Mondo GIS-011 G sull’intero km²: il suolo segue le classi osservate sull’ortofoto AGEA 2023 (prato curato e aperto, sottobosco, stoppie, terra lavorata, terra battuta, macchia, pavimentato), con texture nuove dipinte dal generatore. Le quote del terreno non cambiano rispetto alla 0.5.1.
+- Vegetazione dove la foto la mostra: circa 3.000 alberi nelle chiome osservate, alberi di margine sui confini, arbusti, rovi e sottobosco nei boschi, nella macchia, sulle scarpate e lungo i fossi.
+- Strade e marciapiedi vissuti: rattoppi, tombini, caditoie, targhe con il nome della via, isole ecologiche senza loghi e la recinzione lungo i binari.
+- Edifici e ambienti: marciapiede perimetrale, citofoni, pensiline e pluviali; piazzali e cortili pavimentati; segnaletica sui campi sportivi; tetti e facciate delle scatole al bordo del mondo; un orlo di terreno oltre il bordo, visibile nella nebbia.
+- Mondo più ricco con meno memoria: le mesh del dettaglio sono compatte e non restano copiate nella memoria di sistema.
+
+Problemi noti:
+
+- Versione sperimentale: verificata con Chrome desktop su Mac. Telefoni, Safari e gli altri browser non sono ancora collaudati con questo mondo.
+- Suolo e chiome seguono l’ortofoto AGEA 2023 su una griglia di 2 m: confini tra prato, campo e bosco approssimati, e ombre, erba secca e ghiaia chiara possono confondersi. La posizione dei singoli alberi e arbusti è stimata.
+- L’altezza del ponte è ricostruita, non misurata: franco di 6,90 m sopra le rotaie più 1 m di impalcato. La cartografia regionale, consultata solo in locale, la darebbe 0,2–0,5 m più bassa. Luce, spalle e parapetti sono stimati.
+- Le facciate degli edifici ordinari sono stimate dal tipo: plausibili, non quelle vere. Sono documentati solo i corpi del Girasole; forma e colore dei tetti vengono dall’ortofoto.
+- Il parcheggio sul tetto dell’edificio commerciale a nord-est non si raggiunge: il ponte mappato non arriva alla quota del tetto.
+- Quattro ponticelli sui fossi, presenti nella cartografia regionale ma non in OpenStreetMap, non sono disegnati né verificati.
+- Sulla zebra di Via Giolitti vicino all’innesto laterale il marciapiede nord si interrompe per pochi centimetri al ribassamento.
+- I piazzali senza attività documentata restano vuoti per scelta. Dove la foto mostra terra nuda, un campo arato può arrivare vicino alla strada.
+- Il fabbricato della stazione di Ellera-Corciano è oltre il bordo del mondo: si vedono solo binari e marciapiedi.
+- Quote dal modello CNR a 5 m: le pendenze effettive possono differire.
+- Il salvataggio WebGL appartiene all’origine e al profilo browser. Può essere cancellato dai dati del sito.
+- Prova di riconoscibilità e durata con tre persone ancora da raccogliere.
+
 # 0.5.1-alpha.1
 
 - Mondo GIS-010 F: il cavalcavia di Via Giuseppe Verdi scavalca la ferrovia, con spalle, parapetti e marciapiedi. Si attraversa in auto e a piedi; sotto passano i binari.

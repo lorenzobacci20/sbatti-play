@@ -1,0 +1,207 @@
+{
+  "version": "0.5.2-alpha.1",
+  "dateUtc": "2026-11-23T14:05:08.995353+00:00",
+  "sourceCommit": "af49555c23ae2f01a873db46426e8f3238c19b08",
+  "scene": "World_AOI-001",
+  "unityEditor": "6000.3.10f1",
+  "loader": "releases/0.5.2-alpha.1/Build/SBATTI.loader.js",
+  "transport": "uncompressed; optional HTTP compression managed by hosting",
+  "unity": {
+    "dataUrl": "releases/0.5.2-alpha.1/Build/SBATTI.data",
+    "frameworkUrl": "releases/0.5.2-alpha.1/Build/SBATTI.framework.js",
+    "codeUrl": "releases/0.5.2-alpha.1/Build/SBATTI.wasm",
+    "companyName": "DefaultCompany",
+    "productName": "SBATTI",
+    "productVersion": "0.1.0"
+  },
+  "knownIssues": [
+    "Versione sperimentale: verificata con Chrome desktop su Mac. Telefoni, Safari e gli altri browser non sono ancora collaudati con questo mondo.",
+    "Suolo e chiome seguono l\u2019ortofoto AGEA 2023 su una griglia di 2 m: confini tra prato, campo e bosco approssimati, e ombre, erba secca e ghiaia chiara possono confondersi. La posizione dei singoli alberi e arbusti \u00e8 stimata.",
+    "L\u2019altezza del ponte \u00e8 ricostruita, non misurata: franco di 6,90 m sopra le rotaie pi\u00f9 1 m di impalcato. La cartografia regionale, consultata solo in locale, la darebbe 0,2\u20130,5 m pi\u00f9 bassa. Luce, spalle e parapetti sono stimati.",
+    "Le facciate degli edifici ordinari sono stimate dal tipo: plausibili, non quelle vere. Sono documentati solo i corpi del Girasole; forma e colore dei tetti vengono dall\u2019ortofoto.",
+    "Il parcheggio sul tetto dell\u2019edificio commerciale a nord-est non si raggiunge: il ponte mappato non arriva alla quota del tetto.",
+    "Quattro ponticelli sui fossi, presenti nella cartografia regionale ma non in OpenStreetMap, non sono disegnati n\u00e9 verificati.",
+    "Sulla zebra di Via Giolitti vicino all\u2019innesto laterale il marciapiede nord si interrompe per pochi centimetri al ribassamento.",
+    "I piazzali senza attivit\u00e0 documentata restano vuoti per scelta. Dove la foto mostra terra nuda, un campo arato pu\u00f2 arrivare vicino alla strada.",
+    "Il fabbricato della stazione di Ellera-Corciano \u00e8 oltre il bordo del mondo: si vedono solo binari e marciapiedi.",
+    "Quote dal modello CNR a 5 m: le pendenze effettive possono differire.",
+    "Il salvataggio WebGL appartiene all\u2019origine e al profilo browser. Pu\u00f2 essere cancellato dai dati del sito.",
+    "Prova di riconoscibilit\u00e0 e durata con tre persone ancora da raccogliere."
+  ],
+  "note": "Public prerelease version is recorded here; the unmodified Unity player retains source bundleVersion 0.1.0.",
+  "world": {
+    "id": "GIS-011-G",
+    "generator": "python3 -m sbatti_gis build --gis011",
+    "packageSha256": {
+      "world.json": "0d759827ece8c479d31ab6c477f374d08ca8980f11f921468d9a086bddf50cc2",
+      "world_meta.json": "e9872eab398ce86aa4d5c6dfd2c41d01628745a33fdbb6f6e36030f31991a7e7",
+      "detail.json": "0fc3d1a1b2202d6311f8fa94a92ea99ad372753f849b4c8cf8f54a9e5de609a9",
+      "detail_meta.json": "044fa14d2a5345b12911cae107718dc1dbc9b197f3815cbfa5d90d5f7e8245de",
+      "infrastructure.json": "5cc40ffff896996dee255e08c553fe3971eb3a26c6c211edc3de660d187cff30"
+    },
+    "detailMeshes": {
+      "renderMeshes": 129,
+      "renderReadable": 0,
+      "collisionMeshes": 26,
+      "collisionReadable": 26,
+      "packing": "collision_vertices_in=699321, collision_vertices_out=183437, index_bytes_out=7976370, render_vertex_bytes_out=41911212, render_vertices_in=2573316, render_vertices_out=1978155"
+    },
+    "playerContent": {
+      "worldMetaInPlayer": true,
+      "gis010Meshes": {
+        "_DetailBridge": true,
+        "_DetailRailway": true,
+        "SceneryTrain_Car0": true,
+        "SceneryTrain_Car1": true,
+        "SceneryTrain_Car2": true
+      },
+      "gis011Content": {
+        "_DetailBackdrop": true,
+        "Retro_GMeadow": true,
+        "Retro_GWood": true,
+        "Retro_GStubble": true,
+        "Retro_GEarth": true,
+        "Retro_GYard": true,
+        "Retro_GScrub": true,
+        "Retro_GPaved": true
+      },
+      "ok": true
+    }
+  },
+  "packages": [
+    {
+      "name": "com.unity.ai.navigation",
+      "version": "2.0.10"
+    },
+    {
+      "name": "com.unity.burst",
+      "version": "1.8.28"
+    },
+    {
+      "name": "com.unity.collections",
+      "version": "2.6.2"
+    },
+    {
+      "name": "com.unity.inputsystem",
+      "version": "1.18.0"
+    },
+    {
+      "name": "com.unity.mathematics",
+      "version": "1.3.3"
+    },
+    {
+      "name": "com.unity.render-pipelines.core",
+      "version": "17.3.0"
+    },
+    {
+      "name": "com.unity.render-pipelines.universal-config",
+      "version": "17.0.3"
+    },
+    {
+      "name": "com.unity.render-pipelines.universal",
+      "version": "17.3.0"
+    },
+    {
+      "name": "com.unity.shadergraph",
+      "version": "17.3.0"
+    },
+    {
+      "name": "com.unity.ugui",
+      "version": "2.0.0"
+    }
+  ],
+  "previousReleases": [
+    {
+      "version": "0.1.0-alpha.1",
+      "sourceCommit": "7e8d9f7fbc79832ef6646f1a5565e6feda923c6f",
+      "scene": "Prototype_Graybox",
+      "manifest": "releases/0.1.0-alpha.1/release.json"
+    },
+    {
+      "version": "0.2.0-alpha.1",
+      "sourceCommit": "10a1850ae575ddd65c490502165a42ea8e78e125",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.2.0-alpha.1/release.json"
+    },
+    {
+      "version": "0.2.0-alpha.2",
+      "sourceCommit": "69cf8a65d846381f9f919dcc92c3a50697c6ce12",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.2.0-alpha.2/release.json"
+    },
+    {
+      "version": "0.3.0-alpha.1",
+      "sourceCommit": "fed500497b82b29740b174b312db8a8a29f540ef",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.3.0-alpha.1/release.json"
+    },
+    {
+      "version": "0.4.0-alpha.1",
+      "sourceCommit": "af75956fe0c1cdc39200ff5c923f696f005b9859",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.4.0-alpha.1/release.json"
+    },
+    {
+      "version": "0.4.2-alpha.1",
+      "sourceCommit": "36eb65a0d850e5f1a76a5ec2d33a57a952f0fc45",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.4.2-alpha.1/release.json"
+    },
+    {
+      "version": "0.4.3-alpha.1",
+      "sourceCommit": "e098ba0caf8fbd778a10d30728513032907a489e",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.4.3-alpha.1/release.json"
+    },
+    {
+      "version": "0.5.0-alpha.1",
+      "sourceCommit": "8d28c03a4caf5ae252faa92bab353a7eefcaf067",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.5.0-alpha.1/release.json"
+    },
+    {
+      "version": "0.5.1-alpha.1",
+      "sourceCommit": "c3739def738ca546d78bdf57f880df011042cb1c",
+      "scene": "World_AOI-001",
+      "manifest": "releases/0.5.1-alpha.1/release.json"
+    }
+  ],
+  "data": {
+    "license": "ODbL-1.0 (OpenStreetMap-derived database); CNR HR-DTM-5m v1.3 CC BY 4.0; AGEA Ortofoto 2023 CC BY 4.0 (roof, ground-cover and canopy observations)",
+    "files": [
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/osm-extract.json",
+        "sha256": "5a8dd3076372f9175b74f40686d9a6e240b274bcb81ea3895cfb56fcdeecb750"
+      },
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/osm-detail-extract.json",
+        "sha256": "64d05f3df62a3c46ccab95b8d44c94aef94b8a52533cd73ca4f54c2593c1e070"
+      },
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/osm-context-extract.json",
+        "sha256": "9c82048f8886488ca760ace09c4fd8d157663eb1bfb109c9de86543aca7e8dab"
+      },
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/osm-infrastructure-extract.json",
+        "sha256": "d83f6d39770b2711007fd979c0e9b9f6e496ad14f0cb78a3bca5e14721bcfd15"
+      },
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/derived-world.json",
+        "sha256": "e9872eab398ce86aa4d5c6dfd2c41d01628745a33fdbb6f6e36030f31991a7e7"
+      },
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/derived-detail.json",
+        "sha256": "044fa14d2a5345b12911cae107718dc1dbc9b197f3815cbfa5d90d5f7e8245de"
+      },
+      {
+        "file": "releases/0.5.2-alpha.1/data/aoi-001/derived-infrastructure.json",
+        "sha256": "5cc40ffff896996dee255e08c553fe3971eb3a26c6c211edc3de660d187cff30"
+      }
+    ],
+    "attribution": [
+      "\u00a9 OpenStreetMap contributors (ODbL)",
+      "CNR HR-DTM-5m v1.3, Panza M., Muto M., Rossi M., Alvioli M., Iovine G., Marchesini I. 2026, CC BY 4.0, doi:10.5281/zenodo.24009736",
+      "Contiene dati AGEA - Ortofoto 2023 (CC BY 4.0)"
+    ]
+  }
+}

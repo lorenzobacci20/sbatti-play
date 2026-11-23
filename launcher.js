@@ -16,7 +16,11 @@ byId("play").addEventListener("click", async () => {
   byId("unity-loading-bar").hidden = false;
   try {
     let runtimeFailed = false;
-    if (!document.createElement("canvas").getContext("webgl2")) throw new Error("WebGL 2 non disponibile. Prova Chrome desktop aggiornato con accelerazione grafica attiva.");
+    const check = document.createElement("canvas").getContext("webgl2");
+    if (!check) throw new Error("WebGL 2 non disponibile. Prova Chrome desktop aggiornato con accelerazione grafica attiva.");
+    // Release the test context now: left to the garbage collector, its destruction during play stalls
+    // one frame of the game by tens of milliseconds (GIS-011B trace of the same pattern in the probe).
+    check.getExtension("WEBGL_lose_context")?.loseContext();
     const response = await fetch("release.json", { cache: "no-cache" });
     if (!response.ok) throw new Error("Impossibile leggere la versione. Controlla la connessione e riprova.");
     const release = await response.json();
@@ -55,7 +59,7 @@ byId("play").addEventListener("click", async () => {
 byId("retry").addEventListener("click", () => location.reload());
 byId("fullscreen").addEventListener("click", () => unity?.SetFullscreen(1));
 byId("copy-feedback").addEventListener("click", async () => {
-  const text = "SBATTI 0.5.1-alpha.1\nBrowser e sistema operativo: \nTipo: bug / idea\nCosa ho fatto (passaggi): \nCosa mi aspettavo: \nCosa è successo: \nSi ripete? sempre / a volte / una volta\nImpatto: blocco / grave / minore\nScreenshot facoltativo, senza dati privati.\n";
+  const text = "SBATTI 0.5.2-alpha.1\nBrowser e sistema operativo: \nTipo: bug / idea\nCosa ho fatto (passaggi): \nCosa mi aspettavo: \nCosa è successo: \nSi ripete? sempre / a volte / una volta\nImpatto: blocco / grave / minore\nScreenshot facoltativo, senza dati privati.\n";
   try {
     await navigator.clipboard.writeText(text);
     byId("copy-status").textContent = "Scheda copiata. Incollala nel messaggio privato a chi ti ha invitato.";
